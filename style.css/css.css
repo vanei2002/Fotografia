@@ -1,0 +1,119 @@
+body,html{
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    font-family: 'Playfair Display',serif;;
+    height: 100%;
+}
+
+/* Efeitos */
+
+#box1{
+    opacity: 0.9;
+    margin: 0 auto;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../imagens/imagem1.jpg);
+}
+
+#nave{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#nave ul{
+    list-style: none;
+    float: left;
+    margin-left: 9%;
+}
+
+#nave li{
+    font-size: 1em;
+    float: left;
+    margin-left: 70px;
+}
+
+#nave li a{
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 235, 205);
+    font-weight: bold;
+}
+
+#nave li a:hover{
+    background: rgb(199, 153, 83);
+}
+
+
+#titulo{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 650px;
+   text-decoration: underline;
+}
+
+#box1 h1{
+    margin: 0;
+    text-align: center;
+    font-size: 5em;
+}
+
+#links{
+    padding-left: 50px;
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+#fotos{
+    height: 25em;
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.imagens{
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.imagens a img{
+    width: 220px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.imagens a img:hover{
+    width: 250px;
+    transition:  .45s ease-in-out;
+}
+
+#conteudo{
+    padding: 10px 70px 10px 10px;
+    font-size: 1.2em;
+}
+
+#foonter{
+    margin-top: 7em;
+    height: 4.2em;
+    background-color: blanchedalmond;
+}
+
+#rodape{
+    margin: 0px auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
